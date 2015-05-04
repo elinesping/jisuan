@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+  
+public class jisuan {  
+	private static int result; // 静态变量，用于存储运行结果
+	public static void add(int n) {    //加
+		result = result + n; 
+	}
+public static void substract(int n) {//减
+	result = result - n;  
+	}   
+
+
+public static int getResult() {  
+	return result;  
+	}  
+}  
