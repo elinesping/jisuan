@@ -16,3 +16,25 @@ public static int getResult() {
 	return result;  
 	}  
 }  
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class jisuanTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testSubstract() {
+		jisuan.add(10);  
+		jisuan.substract(2);  
+	    assertEquals(8, jisuan.getResult()); 
+	}
+
+	
+
+}
